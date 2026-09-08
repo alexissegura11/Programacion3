@@ -1,4 +1,4 @@
-public class matrices {
+public class Matrices {
     public static void main(String[] args) {
        
         //Declaración de la matriz (Forma 1)
