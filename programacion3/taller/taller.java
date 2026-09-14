@@ -9,7 +9,7 @@ public class taller {
         
         
         //declaracoin y creacion
-        int[] numeros = new int[7]; 
+        int[] numeros = new int[7]; jjkhk
         numeros[0] = 7; 
         numeros[1] = 8;
         numeros[2] = 9;
