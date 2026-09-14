@@ -1,6 +1,5 @@
 
-import java.util.random.*;
-
+import java.util.Random;
 
 //arreglos
 
@@ -16,14 +15,11 @@ public class taller {
         if (posici >= 0 && posici < numeros.length) {
           resultado = numeros[posici];
         }else {
-            random random = new Random();
-            resultado = random.nextInt(30) +1;
+            Random rand = new Random();
+            resultado = rand.nextInt(30) +1;
             System.out.println("el numero aleatorio es: " + resultado);
         }
         System.out.println("el valor obtenido es: " + resultado);
-
-
-
 
         numeros[0] = 7; 
         numeros[1] = 8;
