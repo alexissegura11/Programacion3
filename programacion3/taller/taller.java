@@ -7,9 +7,24 @@ import java.util.random.*;
 public class taller {
     public static void main(String[] args) {
         
-        
         //declaracoin y creacion
-        int[] numeros = new int[7]; jjkhk
+        int[] numeros = {7, 8, 9, 10, 11, 12, 13};
+        int posici = 9;
+
+        int resultado;
+
+        if (posici >= 0 && posici < numeros.length) {
+          resultado = numeros[posici];
+        }else {
+            random random = new Random();
+            resultado = random.nextInt(30) +1;
+            System.out.println("el numero aleatorio es: " + resultado);
+        }
+        System.out.println("el valor obtenido es: " + resultado);
+
+
+
+
         numeros[0] = 7; 
         numeros[1] = 8;
         numeros[2] = 9;
