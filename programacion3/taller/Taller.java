@@ -1,11 +1,13 @@
 import java.util.Random;
+//la libreria importada sirve para generar numeros aleatorios en el programa
 
 public class Taller {
     public static void main(String[] args) {
 
 
         System.out.println("--- 1. ARREGLO ORIGINAL ---");
-
+        
+  //cantidad de numeros ue tiene el arreglo
         int[] numeros = {7, 8, 9, 10, 11, 12, 13};
         int posicion = 9;
         if (posicion >= 0 && posicion < numeros.length) {
