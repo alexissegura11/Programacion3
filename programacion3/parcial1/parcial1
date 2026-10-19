@@ -9,7 +9,6 @@ public class CinemaApp {
         "16:30 - 19:00",
         "19:00 - 21:00"
     };
-
     private static final int MAX_PELICULAS = 100;
 
     // Representa una película registrada.

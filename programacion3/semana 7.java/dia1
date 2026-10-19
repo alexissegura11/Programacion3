@@ -1,0 +1,45 @@
+import java.util.*;
+ 
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+
+        ArrayList<Integer> objArr = new ArrayList<>();
+
+        objArr.add(7);
+
+        objArr.add(3);
+
+        objArr.add(1);
+
+        objArr.add(9);
+
+        objArr.add(6);
+
+        objArr.add(8);
+
+        objArr.add(4);
+
+        objArr.add(2);
+
+        System.out.println(objArr); //[7, 3, 1, 9, 6, 8, 4, 2]
+
+        //----------
+
+        objArr.add(4, 25);
+
+        System.out.println(objArr); //[7, 3, 1, 9, 25, 6, 8, 4, 2]
+
+        System.out.println(objArr.get(6)); //8
+
+        System.out.println(objArr.get(4)); //25
+
+        System.out.println(objArr.indexOf(4)); //7
+
+        System.out.println(objArr.indexOf(50)); //-1
+
+    }
+
+}
+
+ 
