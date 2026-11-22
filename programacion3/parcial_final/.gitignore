@@ -1,0 +1,6 @@
+# Archivos compilados y carpeta de salida
+build/
+*.class
+
+# Archivos temporales de la prueba por lotes
+inscripciones_prueba.csv
